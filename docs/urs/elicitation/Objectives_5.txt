@@ -1,6 +1,0 @@
-a) The objective of the project is to develop a software tool to analyze narrative text and automatically producing indicators, warnings, improvements and suggestions related to measurable aspects of narrative quality.
-
-b) Authors: to improve text quality
-   Editors: to have a preliminary diagnostic to find problems 
-   Publishing company: to improve efficiency of editors and to have better quality
-
