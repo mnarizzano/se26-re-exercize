@@ -1,0 +1,85 @@
+Requirements:
+
+\## Lista 3
+
+* Uploading  : the system should be able to allow the user to upload and edit narrative text files
+- ambiguity: 
+	- edit: how users are going to edit the narrative text.
+	- are users allowed to upload and edit on the same file?
+	- who are allowed users? 
+	- how users are allowed?
+- incompleteness: 
+	- what are the allowed type of files that users can upload and edit?
+	- 
+
+* Summary of the text  : the system suggest to generate a summary of the whole text with clue points
+
+- ambiguity:
+	- How system is going to summarize the text? ()
+	- What is considered as the clue points? 
+	- When the system should suggest summarizing?
+	- How the system should suggest for summarization? (pop-up - buttons)
+- incompleteness: 
+	- How long the summarized version should be? 
+	- How should the system provide the output of the summary?
+	
+
+* Comparison  : the system allow user with clear vision to compare the old and the new edited version
+
+- ambiguity:
+	- How the system should provide a clear vision? (like putting both files in a same screen to compare or what?)
+	- Which "old version" is considered? (maybe users have multiple versions)
+- incompleteness: 
+	- 
+
+
+* The system shall analyze lexical variety by calculating the ratio of unique words to total words in the text.
+
+- ambiguity:
+	- what is considered as a unique word? 
+- incompleteness: 
+	- How should be the output? (like the ratio itself? OR a percentages? OR put them as classified groups (low - medium - high))
+
+* The system shall calculate a readability index by applying standard readability formulas to match the target audience level.
+
+- ambiguity:
+	- what is considered as a standard readability formulas? 
+	- How should the system link the output value of the formula to in target audience level?
+- incompleteness: 
+	- How many target audience do we have? 
+
+
+* The system shall generate a summary of the analysis by highlighting key findings before exporting the full report.
+
+- ambiguity:
+	- what is considered as key finding (modified parts - parts that are deleted)? 
+	- what does the "export" mean here? ()
+
+- incompleteness: 
+	- What is the format of the exported file? 
+
+
+
+* Repetition \& Redundancy Tracker  : Identification of overused words, phrases, and unintended echoes within paragraphs.
+
+- ambiguity:
+	- 
+- incompleteness: 
+	- How many repetitions considered as overused? 
+	- How should the system represent the output? (warning about an overused words or phrase? )
+
+	
+
+* Lexical Variety Score  : Calculation of unique vocabulary usage to assess the richness and sophistication of the prose.
+* Automated Summary Report  : Generation of a PDF dashboard summarizing key metrics, "red flag" warnings, and specific suggestions for improvement.
+* Check how many chars belong to dialogs between superscripts and how many belong to descriptions.
+
+
+
+* File format: the formats allowed are txt docx
+* The system shall be accessible through standard web browsers by supporting browsers such as Chrome, Firefox, and Edge.
+* The system shall ensure data security by encrypting user data using standard encryption protocols (e.g., HTTPS).
+* The system shall support concurrent usage by allowing at least 100 users to use the system at the same time without performance issues.
+* Security (Data Privacy): All uploaded manuscripts must be encrypted in transit using TLS 1.2 (or higher) and encrypted at rest using the AES-256 encryption standard to protect the author's intellectual property.
+* The system should have a dynamic and animated UI.
+* The system should provide a registration system, allowing users to login and signin.
