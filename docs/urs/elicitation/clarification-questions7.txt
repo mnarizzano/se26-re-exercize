@@ -1,0 +1,133 @@
+Functional Requirements
+
+The system shall analyze the text and detect repeated words and expressions by counting their frequency and identifying those above a defined threshold.
+- What is considered a repeated word or expression?
+- How is the threshold defined?
+- Is the threshold configurable by the user?
+- How should repeated items be presented in the report?
+
+The system shall evaluate the readability of the text and provide a readability score by analyzing sentence length, word complexity, and text structure.
+- What does readability mean in this system?
+- Which factors are included exactly?
+- Are standard readability formulas used?
+- How is the score presented?
+
+The system shall analyze the balance between dialogue and description by identifying dialogue segments and descriptive passages in the text.
+- How does the system define dialogue and description?
+- How are dialogue segments detected?
+- What is considered a balanced ratio?
+- How should the result be displayed?
+
+The system shall analyze lexical variety by calculating the ratio of unique words to total words in the text.
+- What is considered a unique word?
+- Are stop words included in the calculation?
+- Is there a minimum text size required?
+- How is the result presented?
+
+The system shall provide suggestions to improve narrative quality by analyzing detected issues and generating relevant recommendations.
+- What types of suggestions are included?
+- How are suggestions generated?
+- Are suggestions prioritized?
+- How many suggestions should be provided?
+- How are suggestions presented to the user?
+
+The system shall detect grammar issues by using predefined grammar rules and language processing techniques.
+- What types of grammar errors are included?
+- Which rules or models are used?
+- Does the system support multiple languages?
+- How are errors shown to the user?
+
+The system shall detect sentence length problems by measuring the number of words in each sentence and identifying extremes.
+- What is considered too long or too short?
+- Are thresholds fixed or configurable?
+- Should all sentences be analyzed or only extremes?
+- How are problematic sentences shown?
+
+The system shall suggest synonyms by comparing words with a predefined dictionary or language database.
+- What sources are used for synonyms?
+- Are suggestions context-aware?
+- Are multiple suggestions provided?
+- How are suggestions displayed?
+
+The system shall calculate a readability index by applying standard readability formulas to match the target audience level.
+- Which formulas are used?
+- What audience levels are supported?
+- Can users select the target audience?
+- How is the index presented?
+
+The system shall allow users to upload documents by supporting file formats such as PDF, TXT and DOCX.
+- What is the maximum file size?
+- Are all formats supported equally?
+- Is file validation performed before upload?
+- What happens if upload fails?
+
+The system shall generate a summary of the analysis by highlighting key findings before exporting the full report.
+- What is included in the summary?
+- How long should the summary be?
+- Is it automatically generated?
+- Can users customize the summary?
+
+The system shall allow users to export the report by providing options in formats such as PDF, TXT, and DOCX.
+- Which formats are supported exactly?
+- Are there any size or format limitations?
+- Can users choose what to export?
+- What happens if export fails?
+
+Non-Functional Requirements
+
+The system shall be accessible through standard web browsers by supporting browsers such as Chrome, Firefox, and Edge.
+- Which browser versions are supported?
+- Are mobile browsers included?
+- Are there browser-specific limitations?
+
+The system shall generate the analysis report within 5 seconds for texts up to 50,000 words.
+- Does the time include upload and processing?
+- What happens for texts larger than 50,000 words?
+- How is performance measured?
+- What happens if time exceeds 5 seconds?
+
+The system shall provide a simple and user friendly interface by allowing users to complete main actions in no more than 3 steps.
+- What are considered main actions?
+- Are advanced features excluded from this limit?
+- How is usability measured?
+
+The system shall support scalability by handling texts up to 100,000 words without performance degradation.
+- What is considered performance degradation?
+- Can the system handle texts larger than 100,000 words?
+- How is scalability tested?
+- How does the system behave under heavy load?
+
+The system shall ensure data security by encrypting user data using standard encryption protocols.
+- Which encryption protocols are used?
+- Is data encrypted during transmission only or also in storage?
+- Who can access user data?
+- How are security breaches handled?
+
+The system shall ensure database security by storing data in an encrypted format and restricting access to authorized users only.
+- What encryption methods are used for the database?
+- How is access control managed?
+- Are access logs maintained?
+- How are unauthorized access attempts handled?
+
+The system shall ensure high availability by maintaining at least 99% uptime per month.
+- How is uptime calculated?
+- What causes downtime?
+- Are users notified during downtime?
+- Are backup systems available?
+
+The system shall support concurrent usage by allowing at least 100 users at the same time.
+- What happens if users exceed 100?
+- How is performance maintained under load?
+- Is there a queue or limitation system?
+
+The system shall ensure reliability by completing at least 95% of analysis requests without errors.
+- What counts as an error?
+- How is reliability measured?
+- What happens when a request fails?
+- Are retry mechanisms implemented?
+
+The system shall ensure compatibility by supporting at least 3 file formats for input and output.
+- Which formats are supported exactly?
+- Are all formats equally supported?
+- Are there conversion limitations?
+- What happens with unsupported formats?

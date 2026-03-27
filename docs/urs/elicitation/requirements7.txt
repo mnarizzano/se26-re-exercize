@@ -1,0 +1,28 @@
+Functional Requirements
+
+The system shall analyze the text and detect repeated words and expressions by counting their frequency and identifying those above a defined threshold.
+The system shall evaluate the readability of the text and provide a readability score by analyzing sentence length, word complexity, and text structure.
+The system shall analyze the balance between dialogue and description by identifying dialogue segments and descriptive passages in the text.
+The system shall analyze lexical variety by calculating the ratio of unique words to total words in the text.
+The system shall provide suggestions to improve narrative quality by analyzing detected issues and generating relevant recommendations.
+The system shall detect grammar issues by using predefined grammar rules and language processing techniques.
+The system shall detect sentence length problems by measuring the number of words in each sentence and identifying extremes.
+The system shall suggest synonyms by comparing words with a predefined dictionary or language database.
+The system shall calculate a readability index by applying standard readability formulas to match the target audience level.
+The system shall allow users to upload documents by supporting file formats such as PDF, TXT and DOCX.
+The system shall generate a summary of the analysis by highlighting key findings before exporting the full report.
+The system shall allow users to export the report by providing options in formats such as PDF, TXT, and DOCX.
+
+
+Non-Functional Requirements
+
+The system shall be accessible through standard web browsers by supporting browsers such as Chrome, Firefox, and Edge.
+The system shall generate the analysis report within 5 seconds for texts up to 50,000 words.
+The system shall provide a simple and user friendly interface by allowing users to complete main actions (upload, analyze, export) in no more than 3 steps.
+The system shall support scalability by handling texts up to 100,000 words without performance degradation.
+The system shall ensure data security by encrypting user data using standard encryption protocols (e.g., HTTPS).
+The system shall ensure database security by storing data in an encrypted format and restricting access to authorized users only
+The system shall ensure high availability by maintaining at least 99% uptime per month.
+The system shall support concurrent usage by allowing at least 100 users to use the system at the same time without performance issues.
+The system shall ensure reliability by completing at least 95% of analysis requests without errors.
+The system shall ensure compatibility by supporting at least 3 file formats (e.g., PDF, DOCX, TXT) for input and output.

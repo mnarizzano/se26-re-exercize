@@ -1,0 +1,62 @@
+Objectives 3:
+The main objective of the system is to improve the quality of narrative texts by providing automated analysis that identifies weaknesses such as excessive word repetition, inconsistent storyline, and uneven character distribution. The system is intended to assist authors, editors, and publishing companies in enhancing their final products and increasing productivity.
+
+
+Stakeholders 3:
+Authors – create content and receive feedback.
+Editors – review and refine text based on analysis.
+Publishing companies – oversee content quality and productivity.
+QA reviewers / proofreaders – verify narrative consistency and style.
+
+
+Fuctional requirements 3:
+1. Spell Checker: 
+The system shall identify misspelled words in the text, suggest corrections, and allow the user to apply all corrections automatically.
+
+2. Repetition Detection: 
+The system shall generate a report identifying words and phrases that are repeated above a configurable threshold.
+
+3. Inconsistent storyline detection:
+The system shall identify inconsistencies in the storyline, such as events or actions that do not logically follow.
+
+4. Character distribution analysis:
+The system shall determine the proportion of the text associated with each character
+
+5. Lexical diversity:
+The system shall measure the number of unique words divided by the total number of words.
+
+6. Sentence length variation analysis:
+The system shall analyze the distribution of sentence lengths, classifying them as short, medium, or long.
+
+7. Dialogue-to-Narrative Ratio:
+The system shall calculate the percentage of the text contained within quotation marks.
+
+8. Adverb/adjective density measurement:
+The system shall calculate the ratio of adverbs (words ending in -ly) to total verbs in the text.
+
+9. Paragraph depth detection:
+The system shall calculate the average number of sentences per paragraph.
+
+10. Sentiment progression analysis:
+The system shall identify and count the number of positive and negative adjectives in the text.
+
+11. Hard word score:
+The system shall identify all words in the text with three or more syllables.
+
+
+Non-fuctional requirements 3:
+
+1. Performance:
+The system should create the feedback in less than 1 minute.
+
+2. Scalability:
+The system should be able to allow more people to use the system in the same time without going in crash or reduce drastically the performance time.
+
+3. Security:
+The file shoud encript the uploaded files and to not allow the access or the sharing without user authorization.
+
+4. Usability:
+The system should be intuitive for the user, with an easy human-computer interface.
+
+5. Accessibility:
+The system should be possible to use accessible via standard web browsers and a internet connection.

@@ -1,0 +1,16 @@
+Problem & Objective
+
+The objective of this system is to help authors and editors analyze narrative texts and improve their quality. The system does not replace human judgment but supports it by providing clear feedback, measurable indicators, and useful suggestions.
+
+Evaluating narrative quality is often subjective and time-consuming. Authors and editors may miss problems such as repetition, unclear structure, imbalance between dialogue and description, or inconsistent pacing. Because of this, it is difficult to evaluate texts in a consistent and objective way.
+
+The system aims to make this process easier by analyzing measurable aspects like repetition, readability, and dialogue balance. However, it cannot fully evaluate subjective elements such as creativity and emotional impact.
+
+
+Stakeholders
+
+Authors: They use the system to analyze their texts and improve narrative quality. They receive feedback and suggestions.
+Editors: They use the system to review texts more efficiently and identify problems such as repetition, structure issues, and pacing.
+Publishers: They are interested in improving the overall quality of published content and reducing review time.
+Developers: They design, build, and maintain the system to ensure it works correctly and meets user needs.
+Readers: They benefit indirectly from higher quality texts, better readability, and improved storytelling.
